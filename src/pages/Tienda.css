@@ -1,0 +1,8 @@
+#lista-categorias li span{
+    right: 15px!important;
+    background-color: var(--color1)!important;
+}
+.list-group-item.active {
+    background-color: var(--color3);
+    border-color: var(--color3);
+}

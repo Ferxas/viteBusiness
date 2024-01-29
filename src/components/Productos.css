@@ -1,0 +1,6 @@
+.precio-anterior{
+    color: var(--color-gris-claro);
+    font-size: 0.9em;
+    text-decoration: line-through;
+    margin-left: 5px;
+}

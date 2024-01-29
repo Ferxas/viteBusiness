@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: #ecf0f1;
+}
+
+.nuestros-servicios,
+.ultimos-proyectos {
+  margin: 20px 0;
+}
+
+.ultimos-proyectos .proyecto {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.ultimos-proyectos img {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
